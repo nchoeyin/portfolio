@@ -12,7 +12,7 @@ import { RouterLink } from '@angular/router';
         </div>
         <div class="w-full h-full text-xl flex flex-col justify-center items-center p-5 gap-5">
             <p class="text-2xl">Hello, I'm</p>
-            <h1 class="text-5xl text-black">Ngawang Choeying</h1>
+            <h1 class="text-3xl md:text-5xl text-black">Ngawang Choeying</h1>
             <p class="text-4xl font-medium ">Full-stack Developer</p>
             <!-- <section class="flex gap-5">
                 <button class="text-black font-bold p-5 border rounded-full" onclick="window.open('./assets/resume-example.pdf')">
