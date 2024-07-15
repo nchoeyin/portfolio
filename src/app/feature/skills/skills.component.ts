@@ -13,9 +13,9 @@ import { NgTemplateOutlet } from '@angular/common';
         <p class="text-sm lg:text-xl text-center text-black">Decreasing proficiency from top to bottom</p>
       </section>
       <section class="flex flex-col lg:flex-row gap-10">
-        <section class="border border-black rounded-3xl lg:w-7/12 p-2 lg:p-5 flex flex-col gap-4 lg:gap-10 justify-center items-center">
+        <section class="border border-black rounded-3xl lg:w-7/12 p-2 lg:p-5 flex flex-col gap-4 lg:gap-10 items-center">
           <h2 class="text-black text-md lg:text-3xl font-bold text-center flex items-center">Frontend Development &nbsp;<span class="material-symbols-outlined text-md lg:text-5xl font-extralight text-black">code</span></h2> 
-          <section class="flex gap-2 lg:gap-5 flex-col pl-10">
+          <section class="flex gap-2 lg:gap-5 flex-col">
             <p class="text-black text-sm lg:text-2xl">&bull; &nbsp;Angular</p>
             <p class="text-black text-sm lg:text-2xl">&bull; &nbsp;Tailwind CSS</p>
             <p class="text-black text-sm lg:text-2xl">&bull; &nbsp;Javascript</p>
@@ -25,12 +25,12 @@ import { NgTemplateOutlet } from '@angular/common';
           </section>
         </section>
 
-        <section class="border border-black rounded-3xl lg:w-7/12 p-2 lg:p-5 flex flex-col gap-4 lg:gap-10 justify-center items-center">
+        <section class="border border-black rounded-3xl lg:w-7/12 p-2 lg:p-5 flex flex-col gap-4 lg:gap-10 items-center">
           <!-- <div class="flex justify-center">
               <span class="material-symbols-outlined text-7xl text-black">code</span>
             </div> -->
           <h2 class="text-black text-md lg:text-3xl font-bold text-center flex items-center">Backend Development &nbsp;<span class="material-symbols-outlined text-md lg:text-5xl font-extralight text-black">deployed_code</span></h2> 
-          <section class="flex gap-2 lg:gap-5 flex-col pl-10">
+          <section class="flex gap-2 lg:gap-5 flex-col pl-16">
             <p class="text-black text-sm lg:text-2xl">&bull; &nbsp;Django</p>
             <p class="text-black text-sm lg:text-2xl">&bull; &nbsp;Python</p>
             <p class="text-black text-sm lg:text-2xl">&bull; &nbsp;Java</p>
@@ -41,9 +41,9 @@ import { NgTemplateOutlet } from '@angular/common';
         </section>  
       </section>
       <section class="flex w-full justify-center">
-        <section class="flex flex-col border border-black rounded-3xl w-full lg:w-7/12 p-2 lg:p-5 gap-4 lg:gap-10 justify-center items-center mt-5">
+        <section class="flex flex-col border border-black rounded-3xl w-full lg:w-7/12 p-2 lg:p-5 gap-4 lg:gap-10 items-center mt-5">
           <h2 class="text-black text-md lg:text-3xl font-bold text-center flex items-center">Database &nbsp;<span class="material-symbols-outlined text-md lg:text-5xl font-extralight text-black">database</span></h2> 
-          <section class="flex gap-2 lg:gap-5 flex-col pl-10 mb-20">
+          <section class="flex gap-2 lg:gap-5 flex-col mb-10 mt-5">
             <p class="text-black text-sm lg:text-2xl">&bull; &nbsp;PostgreSQL</p>
             <p class="text-black text-sm lg:text-2xl">&bull; &nbsp;MySQL</p>
             <p class="text-black text-sm lg:text-2xl">&bull; &nbsp;NoSQL</p>
