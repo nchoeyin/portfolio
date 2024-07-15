@@ -26,13 +26,13 @@ import { AccordionCardComponent } from '../../components/accordion-card/accordio
           </section>
           <p class="text-black text-xl">1st Sept - 30th Sept, 2021</p>
         </section> -->
-        <section class="flex gap-2 flex-col text-center">
+        <section class="flex gap-2 flex-col">
           <section class="flex gap-2 justify-center">
-            <p class="text-black text-sm lg:text-2xl font-semibold">ATEU softwares</p>
+            <p class="text-black text-sm lg:text-2xl font-semibold">Emplay</p>
             <span class="text-black text-sm lg:text-2xl"> | </span>
-            <p class="text-black text-sm lg:text-xl">Backend Intern</p>
+            <p class="text-black text-sm lg:text-xl">Full stack Developer</p>
           </section>
-          <p class="text-black text-sm lg:text-xl text-center">19th Sept - 20th Oct, 2022</p>
+          <p class="text-black text-sm lg:text-xl text-center">16th Aug, 2023 - present</p>
         </section>
         <section class="flex gap-2 flex-col">
           <section class="flex gap-2 justify-center">
@@ -42,13 +42,13 @@ import { AccordionCardComponent } from '../../components/accordion-card/accordio
           </section>
           <p class="text-black text-sm lg:text-xl text-center">16th Feb - 16th Aug, 2023</p>
         </section>
-        <section class="flex gap-2 flex-col">
+        <section class="flex gap-2 flex-col text-center">
           <section class="flex gap-2 justify-center">
-            <p class="text-black text-sm lg:text-2xl font-semibold">Emplay</p>
+            <p class="text-black text-sm lg:text-2xl font-semibold">ATEU softwares</p>
             <span class="text-black text-sm lg:text-2xl"> | </span>
-            <p class="text-black text-sm lg:text-xl">Full stack Developer</p>
+            <p class="text-black text-sm lg:text-xl">Backend Intern</p>
           </section>
-          <p class="text-black text-sm lg:text-xl text-center">16th Aug, 2023 - present</p>
+          <p class="text-black text-sm lg:text-xl text-center">19th Sept - 20th Oct, 2022</p>
         </section>
       </section>
 
