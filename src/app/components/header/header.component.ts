@@ -5,8 +5,8 @@ import { CommonModule, NgIf } from '@angular/common';
   standalone: true,
   imports: [CommonModule, NgIf],
   template: `
-  <section id="navbar" class="flex justify-between h-40 items-center bg-white">
-    <div class="text-md sm:text-2xl md:text-4xl text-black text-center font-sm">Ngawang Choeying</div>
+  <section id="navbar" class="flex justify-between h-36 items-center bg-white">
+    <div class="text-md sm:text-2xl md:text-3xl text-black text-center font-sm">Ngawang Choeying</div>
      <section class="flex gap-4 items-center">
       <span *ngIf="!showMenu"(click)="showMenu =! showMenu" class="material-symbols-outlined text-md sm:text-3xl md:hidden lg:hidden text-black cursor-pointer">menu</span>
       <section class="md:flex gap-6 {{showMenu ? 'block' : 'hidden'}}">
