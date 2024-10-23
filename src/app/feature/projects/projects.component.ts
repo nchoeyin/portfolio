@@ -31,19 +31,19 @@ import { Component } from '@angular/core';
         </section>
 
         <section class="border border-black rounded-3xl lg:w-7/12 p-5 flex flex-col gap-4 lg:gap-10 justify-center items-center lg:mt-5">
-          <h2 class="text-black text-md lg:text-3xl font-semibold text-center flex items-center">Movie Review application</h2> 
+          <h2 class="text-black text-md lg:text-3xl font-semibold text-center flex items-center">Suttras.com</h2> 
           <section class="flex gap-2 lg:gap-5 flex-col pl-2 lg:pl-2">
             <section class="flex gap-5">
               <span class="text-black text-md lg:text-2xl mb-5">&bull;</span>
-              <p class="text-black text-md lg:text-lg">A MERN application for storing movie title and its review by users</p>
+              <p class="text-black text-md lg:text-lg">A hosted responsive blog website for Tibetan buddhist scriptures</p>
             </section>
             <section class="flex gap-5">
               <span class="text-black text-md lg:text-2xl mb-5">&bull;</span>
-              <p class="text-black text-md lg:text-lg">Explored and implemented MongoDB and NoSQL</p>
+              <p class="text-black text-md lg:text-lg">Extensive use of new angular features like signals and tailwind css</p>
             </section>
             <section class="flex gap-5">
               <span class="text-black text-md lg:text-2xl mb-5">&bull;</span>
-              <p class="text-black text-md lg:text-lg">Implemented middewares using Express and Mongoose</p>
+              <p class="text-black text-md lg:text-lg">Deployed it using vercel and cloudflare</p>
             </section>
           </section>
         </section>
