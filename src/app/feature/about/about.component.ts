@@ -61,7 +61,7 @@ import { AccordionCardComponent } from '../../components/accordion-card/accordio
           <section class="flex gap-2 flex-col">
             <p class="text-black text-sm lg:text-2xl font-semibold">Maharaja Institute of Technology, Mysore</p>
             <p class="text-black text-sm lg:text-xl">Bachelor of Engineering, Computer Science</p>
-            <p class="text-black text-sm lg:text-xl">13th Aug, 2019 - 13th Aug, 2021</p>
+            <p class="text-black text-sm lg:text-xl">13th Aug, 2019 - 13th Aug, 2023</p>
           </section>
           <section class="flex gap-2 flex-col">
             <p class="text-black text-sm lg:text-2xl font-semibold">St. Joseph's Academy, Dehradun</p>
