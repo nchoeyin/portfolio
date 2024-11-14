@@ -11,9 +11,9 @@ import { RouterLink } from '@angular/router';
             <img class="rounded-full w-[55vw]" src="https://avatars.githubusercontent.com/u/77958773?v=4" alt="Ngawang Choeying profile picture" />
         </div>
         <div class="w-full h-full text-xl flex flex-col justify-center items-center lg:p-5 gap-3 lg:gap-5">
-            <p class="text-sm text-center lg:text-2xl">Hello, I'm</p>
+            <p class="text-sm text-center lg:text-2xl">Hello, I'm your full-stack developer speaking
             <h1 class="text-md text-center sm:text-3xl md:text-4xl text-black">Ngawang Choeying</h1>
-            <p class="text-md text-center lg:text-4xl font-medium ">Full-stack Developer</p>
+            <p class="text-md text-center lg:text-4xl font-medium ">Call sign: sicario4l
             <!-- <section class="flex gap-5">
                 <button class="text-black font-bold p-5 border rounded-full" onclick="window.open('./assets/resume-example.pdf')">
                     Download CV

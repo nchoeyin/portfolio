@@ -17,7 +17,7 @@ import { CommonModule, NgIf } from '@angular/common';
           <a href="#skills">Skills</a>
         </div>
         <div class="text-xs sm:text-xl lg:text-2xl text-black hover:text-gray-200">
-          <a href="#projects">Projects</a>
+          <a href="#projects">DaggerProjects</a>
         </div>
         <div class="text-xs sm:text-xl lg:text-2xl text-black hover:text-gray-200">
           <a href="#contact">Contact</a>
@@ -25,7 +25,7 @@ import { CommonModule, NgIf } from '@angular/common';
       </section>
       <span *ngIf="showMenu"(click)="showMenu =! showMenu" class="material-symbols-outlined text-md sm:text-3xl md:hidden lg:hidden text-black cursor-pointer">clear</span>
     </section>
-    
+
 </section>
 
   `,

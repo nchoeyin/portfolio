@@ -8,12 +8,13 @@ import { Component } from '@angular/core';
   <section id="projects" class="flex flex-col w-full justify-center">
     <section class="flex flex-col w-full gap-5">
       <section class="flex flex-col gap-5 my-5">
-          <h1 class="text-bold text-md lg:text-5xl text-black text-center">Browse My Recent</h1>
-          <p class="text-md lg:text-xl text-center text-black">Projects</p>
+<!--          <h1 class="text-bold text-md lg:text-5xl text-black text-center">Browse My Recent</h1>-->
+<!--          <p class="text-md lg:text-xl text-center text-black">Projects</p>-->
+        <h1 class="text-bold text-md lg:text-5xl text-black text-center">Dagger projects on standby</h1>
       </section>
       <section class="flex flex-col lg:flex-row justify-center gap-10 lg:gap-10 my-5 lg:my-10">
         <section class="border border-black rounded-3xl lg:w-7/12 p-5 flex flex-col gap-4 lg:gap-10 justify-center items-center lg:mt-5">
-          <h2 class="text-black text-md lg:text-3xl font-semibold text-center flex items-center">Seray news application</h2> 
+          <h2 class="text-black text-md lg:text-3xl font-semibold text-center flex items-center">Seray news application</h2>
           <section class="flex gap-2 lg:gap-5 flex-col pl-2 lg:pl-2">
             <section class="flex gap-5">
               <span class="text-black text-md lg:text-2xl mb-5">&bull;</span>
@@ -31,7 +32,7 @@ import { Component } from '@angular/core';
         </section>
 
         <section class="border border-black rounded-3xl lg:w-7/12 p-5 flex flex-col gap-4 lg:gap-10 justify-center items-center lg:mt-5">
-          <h2 class="text-black text-md lg:text-3xl font-semibold text-center flex items-center">Suttras.com</h2> 
+          <h2 class="text-black text-md lg:text-3xl font-semibold text-center flex items-center">Suttras.com</h2>
           <section class="flex gap-2 lg:gap-5 flex-col pl-2 lg:pl-2">
             <section class="flex gap-5">
               <span class="text-black text-md lg:text-2xl mb-5">&bull;</span>
@@ -49,7 +50,7 @@ import { Component } from '@angular/core';
         </section>
 
         <section class="border border-black rounded-3xl lg:w-7/12 p-5 flex flex-col gap-4 lg:gap-10 justify-center items-center lg:mt-5">
-          <h2 class="text-black text-md lg:text-3xl font-semibold text-center flex items-center">chatbot app</h2> 
+          <h2 class="text-black text-md lg:text-3xl font-semibold text-center flex items-center">chatbot app</h2>
           <section class="flex gap-2 lg:gap-5 flex-col pl-2 lg:pl-2">
             <section class="flex gap-5">
               <span class="text-black text-md lg:text-2xl mb-5">&bull;</span>
