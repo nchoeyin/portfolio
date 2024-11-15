@@ -23,8 +23,8 @@ import { RouterLink } from '@angular/router';
                 </button>
             </section> -->
             <section class="flex gap-5">
-            <a class="p-3 lg:p-5 text-3xl lg:text-5xl hover:bg-gray-200 border rounded-lg" href='https://github.com/nchoeyin/Django_CRUD_form'><i class="fa-brands fa-square-github fa-lg" style="color: #000000;"></i></a>
-            <a class="p-3 lg:p-5 text-3xl lg:text-5xl hover:bg-gray-200 border rounded-lg" href='https://www.linkedin.com/in/ngawang-choeying-4b93681ba/'><i class="fa-brands fa-linkedin fa-lg" style="color: #0077b5;"></i></a>
+            <p class="p-3 lg:p-5 text-3xl lg:text-5xl hover:bg-gray-200 border rounded-lg" (click)="openPortfolio('https://github.com/nchoeyin/Django_CRUD_form')"><i class="fa-brands fa-square-github fa-lg" style="color: #000000;"></i></p>
+            <p class="p-3 lg:p-5 text-3xl lg:text-5xl hover:bg-gray-200 border rounded-lg" (click)="openPortfolio('https://www.linkedin.com/in/ngawang-choeying-4b93681ba/')"><i class="fa-brands fa-linkedin fa-lg" style="color: #0077b5;"></i></p>
             </section>
         </div>
     </section>
@@ -36,5 +36,7 @@ import { RouterLink } from '@angular/router';
   styleUrl: './intro-card.component.scss'
 })
 export class IntroCardComponent {
-
+  openPortfolio(url:string) {
+    window.open(url, '_blank');
+  }
 }
