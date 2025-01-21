@@ -7,12 +7,12 @@ module.exports = {
     extend: {
       keyframes: {
         marquee: {
-          '0%': { transform: 'translateX(100%)' },
-          '100%': { transform: 'translateX(-100%)' },
+          from: { transform: "translateX(100%)" },
+          to: { transform: "translateX(-100%)" },
         },
       },
       animation: {
-        marquee: 'marquee 10s linear infinite',
+        marquee: 'marquee 20s linear infinite reverse',
       },
     },
 
