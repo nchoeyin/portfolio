@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content {
+  .section {
+    @apply relative px-10 py-16 w-full h-screen mx-auto z-10;
+
+    &.dark {
+      @apply bg-black text-white;
+    }
+
+    &.right {
+      @apply text-right;
+    }
+  }
+
+  .blueprint {
+    @apply bg-blue-900;
+  }
+
+  .ground-container {
+    .parallax {
+      @apply absolute top-0 left-0 w-full;
+    }
+  }
+}
