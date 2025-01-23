@@ -5,7 +5,7 @@ import { RouterLink } from '@angular/router';
   standalone: true,
   imports: [RouterLink],
   template: `
-  <div class="w-full bg-white h-[70vh] flex flex-col justify-center items-center mt-2 mb-4 lg:mt-5 lg:mb-20">
+  <div class="w-full bg-white h-[60vh] flex flex-col justify-center items-center mt-2 mb-4 lg:mt-1 lg:mb-5">
     <section class="w-10/12 flex gap-5 lg:gap-20 justify-center items-center">
         <div class="lg:p-5 justify-center items-center">
             <img class="rounded-full w-[55vw]" src="https://avatars.githubusercontent.com/u/77958773?v=4" alt="Ngawang Choeying profile picture" />
